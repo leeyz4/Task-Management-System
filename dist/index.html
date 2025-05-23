@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Management system</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+      <h1 class=header>Task Management System</h1>
+    <div class="container">
+      <div class="cont">
+        <h2>User Manager</h2>
+        <div class="form">
+          <input type="number" id="userId" placeholder="User ID" required />
+          <input type="text" id="userName" placeholder="Name" /></br>
+          <input type="number" id="userAge" placeholder="Age" />
+          <input type="email" id="userEmail" placeholder="Email" /></br>
+          <button id="createUser">Create User</button>
+          <button id="updateUser">Update User</button>
+          <button id="deleteUser">Delete User</button>
+        </div>
+        <div id="usersList" class="array-list"></div>
+      </div>
+
+
+      <div class="contt">
+        <h2>Task Manager</h2>
+        <div class="form">
+          <input type="number" id="taskId" placeholder="Task ID" />
+          <input type="text" id="taskTitle" placeholder="Title" /></br>
+          <input type="date" id="start" placeholder="start-date" />
+          <input type="date" id="end" placeholder="end-date" /></br>
+          <button id="create">Create Task</button>
+          <button id="delete">Delete Task</button>
+        </div>
+
+        <div class="Assignment">
+          <input type="number" id="assignTaskId" placeholder="Task ID" required/>
+          <input type="number" id="assignUserId" placeholder="User ID"/></br>
+          <button id="assignTask">Assign Task</button>
+          <button id="unassignTask">Unassign Task</button>
+        </div>
+        <div id="tasksList" class="array-list"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

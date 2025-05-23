@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 6%, 82%);
+}
+
+.header{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.cont{
+    background-color: bisque;
+    height: 75vh;
+    width: 50%;
+    padding: 20px;
+}
+
+.cont h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#userId, #userName, #userAge, #userEmail{
+    padding: 5px 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+}
+
+#createUser, #updateUser, #deleteUser{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 60px;
+    background-color: hsl(229, 63%, 33%);
+    color: white;
+}
+
+#createUser:hover, #updateUser:hover, #deleteUser:hover{
+    background-color:  hsl(229, 56%, 43%);
+}
+
+.contt{
+    background-color: azure;
+    height: 75vh;
+    width: 50%;
+    padding: 20px;
+}
+
+.contt h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#taskId, #taskTitle, #start, #end{
+    padding: 5px 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+#create, #delete{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 80px;
+    background-color: hsl(229, 63%, 33%);
+    color: white;
+}
+
+#create:hover, #delete:hover{
+    background-color:  hsl(229, 56%, 43%);
+}
+
+.Assignment{
+    margin-top: 50px;
+}
+
+#assignTaskId, #assignUserId{
+    padding: 5px 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+#assignTask, #unassignTask{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 80px;
+    background-color: hsl(229, 63%, 33%);
+    color: white;
+}
+
+#assignTask:hover, #unassignTask:hover{
+    background-color: hsl(229, 56%, 43%);
+}
